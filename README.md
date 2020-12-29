@@ -6,7 +6,7 @@ A Hartree-Fock calculation demo for quantum chemistry.
 
 You should install `boost, eigen3, libint2` first. Take Ubuntu for example
 ```bash
-sudo apt install libbboost-dev libeigen3-dev libint2-dev
+sudo apt install libboost-dev libeigen3-dev libint2-dev
 ```
 
 Then install this package with `Pkg`
@@ -21,6 +21,7 @@ Pkg.build("HartreeFock")
 Here is a example to calculate H2O molecule energy
 ```julia
 function H2O(r::Real, θ::Real)
+    r = r / a0
     Molecule("H2O",
         [
             Atom("O", vec3(0, 0, 0)),
