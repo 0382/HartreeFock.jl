@@ -1,0 +1,12 @@
+name = "HartreeFock"
+uuid = "2e18e3c0-1116-4534-83a3-1f34026c09a0"
+authors = ["0382"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+libcxxwrap_julia_jll = "3eaa8342-bff7-56a5-9981-c04077f7cee7"

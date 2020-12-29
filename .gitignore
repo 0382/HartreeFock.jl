@@ -1,0 +1,15 @@
+# c++ compile files
+*.o
+*.so
+*.exe
+
+# vscode
+.vscode*
+
+# temp files
+temp/*
+tmp*
+*.txt
+
+# julia build files
+deps/build.log
